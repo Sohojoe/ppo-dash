@@ -1,0 +1,88 @@
+name: obs
+channels:
+  - defaults
+dependencies:
+  - _tflow_select=2.1.0
+  - absl-py=0.7.0
+  - astor=0.7.1
+  - backports=1.0
+  - backports.weakref=1.0rc1
+  - blas=1.0
+  - bleach=1.5.0
+  - ca-certificates=2019.1.23
+  - certifi=2018.11.29
+  - cmake=3.12.2
+  # - cudatoolkit=9.0
+  # - cudnn=7.3.1
+  - gast=0.2.2
+  - grpcio=1.16.1
+  - h5py=2.9.0
+  - hdf5=1.10.4
+  - html5lib=0.9999999
+  # - icc_rt=2019.0.0
+  # - intel-openmp=2019.1
+  - keras-applications=1.0.6
+  - keras-preprocessing=1.0.5
+  - libprotobuf=3.6.1
+  - markdown=3.0.1
+  - mkl=2019.1
+  - mkl_fft=1.0.10
+  - mkl_random=1.0.2
+  - numpy=1.15.4
+  - numpy-base=1.15.4
+  - openssl=1.1.1a
+  - pip=19.0.1
+  - protobuf=3.6.1
+  - pyopengl=3.1.1a1
+  # - pyreadline=2.1
+  - python=3.6.8
+  - scipy=1.2.0
+  - setuptools<=39.1.0
+  - six=1.12.0
+  - sqlite=3.26.0
+  - tensorboard=1.9.0
+  - tensorflow=1.9.0
+  - tensorflow-base=1.9.0
+  # - tensorflow-gpu=1.9.0
+  - tensorflow=1.9.0
+  - termcolor=1.1.0
+  # - vc=14.1
+  # - vs2015_runtime=14.15.26706
+  - werkzeug=0.14.1
+  - wheel=0.32.3
+  # - wincertstore=0.2
+  - zlib=1.2.11
+  - pip:
+    - atari-py==0.1.7
+    - atomicwrites==1.3.0
+    - attrs==18.2.0
+    - baselines
+    - chardet==3.0.4
+    - click==7.0
+    - cloudpickle==0.8.0
+    # - coinrun==0.0.1
+    - colorama==0.4.1
+    - dill==0.2.9
+    - future==0.17.1
+    - gin-config==0.1.2
+    - gym
+    - idna==2.8
+    - joblib==0.13.2
+    - mlagents-envs==0.6.2
+    - more-itertools==6.0.0
+    - mpi4py
+    # - obstacle-tower-env==1.2
+    - opencv-python==4.0.0.21
+    - pillow==5.4.1
+    - pluggy==0.8.1
+    - progressbar2==3.39.2
+    - py==1.7.0
+    - pyglet==1.3.2
+    - pytest==3.10.1
+    - python-utils==2.3.0
+    - requests==2.21.0
+    - tqdm==4.31.1
+    - urllib3==1.24.1
+    - yapf==0.26.0
+prefix: C:\Users\ml-2 windows\AppData\Local\conda\conda\envs\obs
+

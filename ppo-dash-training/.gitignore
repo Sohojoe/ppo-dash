@@ -1,0 +1,8 @@
+ObstacleTower/
+*.pyc
+
+models/debug/
+summaries/debug/
+summaries/debug.csv
+UnitySDK.log
+*.DS_Store

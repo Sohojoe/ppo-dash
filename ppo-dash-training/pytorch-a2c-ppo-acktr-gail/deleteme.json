@@ -1,0 +1,47 @@
+[
+    {"thoughts": [
+        {"01:36":[
+            "SolveDoubleTowerPuzzel",
+            "ExploreRoom",
+            "BlueHealth"]
+        },
+        {"01:37":[
+            "SolveDoubleTowerPuzzel",
+            "FindKey",
+            "BlueHealth"]
+        },
+        {"01:43":[
+            "SolveDoubleTowerPuzzel",
+            "FindKey"]
+        },
+        {"01:47":[
+            "UnlockDoor"]
+        },
+        {"01:51":[
+            "EnterNextRoom"]
+        }
+    ]},
+    {"completed_task":[
+        {"01:39.9":"BlueHealth"},
+        {"01:42.2":"BlueHealth"},
+        {"01:47.2":"SolveDoubleTowerPuzzel"},
+        {"01:47.2":"FindKey"},
+        {"01:50.9":"UnlockDoor"},
+        {"01:51.5":"OpenInnerDoor"}
+
+    ]},
+    {"inverse_rl":[
+    {"openaigym.video.0.1443.floor24.seed13": [
+        {"00:23.6": "StartBlockPuzzel"},
+        {"00:33.1": "PushBlockToPad"},
+        {"00:35.5": "SolveBlockPuzzel"},
+        {"00:42.6": "OpenDoor"}
+    ]},
+    {"openaigym.video.0.1443.floor24.seed09": [
+        {"00:23.2": "StartBlockPuzzel"},
+        {"00:30.2": "PushBlockToPad"},
+        {"00:32.9": "SolveBlockPuzzel"},
+        {"00:37.2": "OpenDoor"}
+    ]}
+]}
+]

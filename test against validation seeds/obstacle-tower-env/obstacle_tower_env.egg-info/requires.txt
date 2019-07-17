@@ -1,0 +1,2 @@
+mlagents_envs<0.7,>=0.6.2
+gym

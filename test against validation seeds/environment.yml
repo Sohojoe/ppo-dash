@@ -1,0 +1,22 @@
+name: obs
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.6.8
+  # - tensorflow-gpu
+  - tensorflow
+  - grpcio=1.16.1
+  - pytorch-cpu=1.0.1
+  - pandas
+  - pip:
+    - opencv-python==4.0.0.21
+    - pyopengl
+    - gym
+    - pillow
+    - git+git://github.com/openai/baselines 
+    - git+git://github.com/Unity-Technologies/obstacle-tower-env@v1.3
+    - mlagents-envs==0.6.2
+    - more-itertools==6.0.0
+    - pytest==3.10.1
+    - atomicwrites==1.3.0

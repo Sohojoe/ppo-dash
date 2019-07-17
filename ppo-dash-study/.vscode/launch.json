@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "003_recurrent",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/003_recurrent/",
+            "program": "${workspaceFolder}/003_recurrent/run.py",
+            "args": [
+                "--exp_name", "debug"
+                // ,"--env", "ObtRetro-v8-no-norm"
+                ,"--num-processes", "1" ,"--num-mini-batch", "1"
+                // ,"--half_precision"
+                // ,"--load"
+            ],
+            // "program": "${workspaceFolder}/003_recurrent/run_evaluation.py",
+            // "args": [ 
+            //     "--exp_name", "presub117"
+            //     ,"--env", "ObtRetro-v7"
+            // ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "006_reduced_frame_stack",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/006_reduced_frame_stack/",
+            "program": "${workspaceFolder}/006_reduced_frame_stack/run.py",
+            "args": [
+                "--exp_name", "debug"
+                ,"--num-processes", "1" ,"--num-mini-batch", "1"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "007_reduced_action_space_and_frame_stack",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/007_reduced_action_space_and_frame_stack/",
+            "program": "${workspaceFolder}/007_reduced_action_space_and_frame_stack/run.py",
+            "args": [
+                "--exp_name", "debug"
+                ,"--num-processes", "1" ,"--num-mini-batch", "1"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "010_ra+rf+lshp+recurrent+vec_obs",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/010_ra+rf+lshp+recurrent+vec_obs/",
+            "program": "${workspaceFolder}/010_ra+rf+lshp+recurrent+vec_obs/run.py",
+            "args": [
+                "--num-processes", "1" ,"--num-mini-batch", "1"
+            ],
+            "console": "integratedTerminal"
+        },        {
+            "name": "011_ra+rf+lshp+recurrent+vec_obs+norm_obs",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/011_ra+rf+lshp+recurrent+vec_obs+norm_obs/",
+            "program": "${workspaceFolder}/011_ra+rf+lshp+recurrent+vec_obs+norm_obs/run.py",
+            "args": [
+                "--num-processes", "1" ,"--num-mini-batch", "1"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "aggrigate charts",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/aggregator.py",
+            "args": [
+                // "--exp_name", "debug"
+                // ,"--num-processes", "1" ,"--num-mini-batch", "1"
+            ],
+            "console": "integratedTerminal"
+        },        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

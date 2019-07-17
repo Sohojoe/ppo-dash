@@ -1,0 +1,7 @@
+{
+    "challenge_id" : "unity-obstacle-tower-challenge-2019",
+    "grader_id": "unity-obstacle-tower-challenge-2019",
+    "authors" : ["sohojoe"],
+    "description" : "Obstacle Tower SohoJoe Agent",
+    "gpu": true
+}
